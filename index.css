@@ -1,0 +1,35 @@
+body {
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #0F0;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.container img {
+    flex-basis: 50%;
+    margin-right: 10px;
+    max-width: 60%;
+}
+.container .text {
+    flex-basis: 50%;
+}
+h1, h2 {
+    margin: 10px 0;
+}
+.title {
+    text-align: center;
+    margin: 40px;
+}
+a {
+    color: red;
+}
+p {
+    font-size: large;
+}
