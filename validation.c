@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-void parseArguments(int argc, char *argv[], char **ip_address, int *port, char **root_dir)
+void parse_arguments(int argc, char *argv[], char **ip_address, int *port, char **root_dir)
 {
     int i;
     for (i = 1; i < argc; i++) {
